@@ -1,0 +1,16 @@
+ Q--ISO-V1
+
+Quantum-secure ISO 8583 + ACH Payment Stack  
+Built with 11.11 language, biometric auth, DID, and Quorum blockchain.
+
+ Features
+- Biometric + Wallet Connect Login
+- ISO 8583 and Real-Time ACH Integration
+- POS / Merchant / Admin Dashboards
+- DID + ZKP Auth
+- Quorum Blockchain Logging
+- Auto-deployable to DigitalOcean Droplet
+
+ Deployment
+```bash
+bash deploy/deploy_droplet.sh
