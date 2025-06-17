@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  quorum:
+    image: quorumengineering/quorum
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+    volumes:
+      - ./quorum_node:/quorum
+    command: ["--config", "/quorum/genesis.json"]
